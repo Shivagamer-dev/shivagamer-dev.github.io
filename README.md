@@ -1,6 +1,6 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/Shivagamer-dev/shivagamer-dev.github.io/main/assets/favicon.svg" width="80" alt="Logo" />
-  <h1>Hi 👋, I'm Shiva Tyagi</h1>
+  <h1>Hi 👋,I'm Shiva Tyagi</h1>
   <h3>Software Engineer • ML/AI Engineer • Full-Stack & Mobile Developer</h3>
   <p>Building intelligent, scalable software across AI, Machine Learning, backend systems, web and mobile applications.</p>
   

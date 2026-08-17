@@ -1,0 +1,1003 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shiva Tyagi | Software Engineer & AI Developer</title>
+  <meta name="description" content="Portfolio of Shiva Tyagi: Software Engineer, ML/AI Engineer, Full-Stack & Mobile Developer. Building intelligent, scalable software.">
+  
+  <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="./css/variables.css">
+  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/animations.css">
+  <link rel="stylesheet" href="./css/components.css">
+  <link rel="stylesheet" href="./css/sections.css">
+  <link rel="stylesheet" href="./css/responsive.css">
+
+  <!-- Three.js (CDN) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+</head>
+<body>
+
+  <!-- =========================================================
+       NAVIGATION
+       ========================================================= -->
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="#hero" class="nav__logo">ST.</a>
+      <button class="nav__toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav__links">
+        <a href="#about" class="nav__link">About</a>
+        <a href="#experience" class="nav__link">Experience</a>
+        <a href="#projects" class="nav__link">Projects</a>
+        <a href="#skills" class="nav__link">Skills</a>
+        <a href="#ml-ai" class="nav__link">ML/AI</a>
+        <a href="#github" class="nav__link">GitHub</a>
+        <a href="#contact" class="nav__link">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- =========================================================
+       01. HERO SECTION
+       ========================================================= -->
+  <section id="hero" class="hero">
+    <div id="hero-canvas" class="hero__canvas"></div>
+    <div class="container hero__grid">
+      <div class="hero__content">
+        <h1 class="hero__name">Hi <span class="hero__wave">👋</span>, I'm <br><span>Shiva Tyagi</span></h1>
+        <div class="hero__title">
+          <span>Software Engineer</span> <span class="sep">•</span> 
+          <span>ML/AI Engineer</span> <span class="sep">•</span> 
+          <span>Full-Stack & Mobile Developer</span>
+        </div>
+        <p class="hero__desc">
+          Building intelligent, scalable software across AI, Machine Learning, backend systems, web and mobile applications.
+        </p>
+        <div class="hero__buttons">
+          <a href="#projects" class="btn btn--primary">
+            View Projects
+          </a>
+          <a href="https://github.com/Shivagamer-dev" target="_blank" rel="noopener noreferrer" class="btn btn--outline">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12Z"/></svg>
+            GitHub
+          </a>
+          <a href="#contact" class="btn btn--outline">Contact Me</a>
+        </div>
+      </div>
+      <div class="hero__image-wrap">
+        <img src="./assets/profile.jpg" alt="Shiva Tyagi" class="hero__image">
+      </div>
+    </div>
+    <a href="#about" class="hero__scroll">
+      <span>Scroll</span>
+      <div class="hero__scroll-line"></div>
+    </a>
+  </section>
+
+  <!-- =========================================================
+       02. ABOUT ME
+       ========================================================= -->
+  <section id="about" class="section">
+    <div class="container container--lg">
+      <div class="section__header reveal">
+        <h2 class="section__title">About Me</h2>
+        <div class="divider"></div>
+      </div>
+      
+      <div class="about__grid">
+        <div class="card card--glass reveal reveal-delay-1">
+          <div class="about__text">
+            <p>I'm a Computer Science Engineering undergraduate focused on Software Engineering, Machine Learning and AI.</p>
+            <p>I have hands-on experience building full-stack web and mobile applications, backend services, REST APIs, database-driven systems and applied Machine Learning pipelines.</p>
+            <p>I enjoy working at the intersection of software engineering and intelligent systems — taking an idea from data and model development all the way to an accessible application or deployed service.</p>
+            <p>I learn by building real products, solving engineering problems and continuously expanding my technical depth.</p>
+          </div>
+        </div>
+        
+        <div class="about__capabilities">
+          <div class="capability-card reveal reveal-delay-2">
+            <div class="capability-card__number">01</div>
+            <div class="capability-card__title">Software Engineering</div>
+          </div>
+          <div class="capability-card reveal reveal-delay-3">
+            <div class="capability-card__number">02</div>
+            <div class="capability-card__title">Machine Learning & AI</div>
+          </div>
+          <div class="capability-card reveal reveal-delay-4">
+            <div class="capability-card__number">03</div>
+            <div class="capability-card__title">Full-Stack & Mobile Development</div>
+          </div>
+          <div class="capability-card reveal reveal-delay-5">
+            <div class="capability-card__number">04</div>
+            <div class="capability-card__title">Backend & Systems</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="glow-orb glow-orb--blue" style="top: 10%; right: 5%; width: 400px; height: 400px;"></div>
+  </section>
+
+  <!-- =========================================================
+       03. PROFESSIONAL EXPERIENCE
+       ========================================================= -->
+  <section id="experience" class="section">
+    <div class="container">
+      <div class="section__header reveal">
+        <h2 class="section__title">Professional Experience</h2>
+        <div class="divider"></div>
+      </div>
+
+      <div class="experience__wrapper">
+        <div class="timeline">
+          <!-- Experience 01 -->
+          <div class="timeline__item">
+            <div class="timeline__dot"></div>
+            <div class="timeline__content">
+              <div class="timeline__period">Jun 2026 – Jul 2026</div>
+              <h3 class="timeline__role">Full Stack Developer Intern</h3>
+              <div class="timeline__company">TPW Industries LLP • Industrial Automation & Software</div>
+              <p class="exp__desc">Contributed to a module of the SAKSHAM APP, building software tools to collect and store process commissioning data for industrial process and system upgrades. Designed and delivered a 3D Interactive Flip Book feature, applying interactive UI/UX and animation techniques to improve user engagement.</p>
+              
+              <div class="exp__visual">
+                <div class="exp__flow">
+                  <div class="exp__flow-node">UI (Flipbook)</div>
+                  <div class="exp__flow-arrow">↓</div>
+                  <div class="exp__flow-node">React Frontend</div>
+                  <div class="exp__flow-arrow">↓</div>
+                  <div class="exp__flow-node">REST API</div>
+                  <div class="exp__flow-arrow">↓</div>
+                  <div class="exp__flow-node">Node/Express</div>
+                  <div class="exp__flow-arrow">↓</div>
+                  <div class="exp__flow-node">MongoDB/MySQL</div>
+                </div>
+              </div>
+
+              <div class="exp__chips">
+                <span class="chip">React</span>
+                <span class="chip">Node.js</span>
+                <span class="chip">Express.js</span>
+                <span class="chip">MongoDB</span>
+                <span class="chip">MySQL</span>
+                <span class="chip">REST APIs</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience 02 -->
+          <div class="timeline__item">
+            <div class="timeline__dot"></div>
+            <div class="timeline__content">
+              <div class="timeline__period">Sep 2025 – Feb 2026</div>
+              <h3 class="timeline__role">Full Stack Developer Intern</h3>
+              <div class="timeline__company">Frintt Stuudio Private Limited</div>
+              <p class="exp__desc">Contributed as a Full Stack Developer across both React web and React Native mobile applications. Focused on cross-platform development, UI implementation, performance, and API integration.</p>
+              
+              <div class="exp__visual">
+                <div class="exp__flow" style="flex-direction: row;">
+                  <div class="exp__flow-node" style="border-color: var(--primary-500);">React Web App</div>
+                  <div class="exp__flow-arrow" style="transform: rotate(-90deg);">⇄</div>
+                  <div class="exp__flow-node" style="border-color: var(--cyan-500);">Shared API</div>
+                  <div class="exp__flow-arrow" style="transform: rotate(90deg);">⇄</div>
+                  <div class="exp__flow-node" style="border-color: var(--accent-500);">React Native Mobile</div>
+                </div>
+              </div>
+
+              <div class="exp__chips">
+                <span class="chip">React</span>
+                <span class="chip">React Native</span>
+                <span class="chip">JavaScript</span>
+                <span class="chip">API Integration</span>
+                <span class="chip">Mobile Dev</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       04. FEATURED PROJECTS
+       ========================================================= -->
+  <section id="projects" class="section">
+    <div class="container container--lg">
+      <div class="section__header reveal">
+        <h2 class="section__title">Featured Projects</h2>
+        <p class="section__subtitle">Complete software systems integrating Machine Learning, AI, backend services, and interactive frontends.</p>
+        <div class="divider"></div>
+      </div>
+
+      <div class="projects__grid">
+        
+        <!-- Project 01: VoltTrack -->
+        <div class="project-card reveal reveal-delay-1">
+          <div class="project-card__visual">
+            <div class="project-flow">
+              <div class="project-flow__node">EV Fleet Data</div>
+              <div class="project-flow__arrow">↓</div>
+              <div class="project-flow__node" style="border-color: var(--primary-500);">Spring Boot REST API</div>
+              <div class="project-flow__arrow">↓</div>
+              <div class="project-flow__node" style="border-color: var(--accent-500);">Weka Predictive Analytics</div>
+              <div class="project-flow__arrow">↓</div>
+              <div class="project-flow__node">MySQL</div>
+              <div class="project-flow__arrow">↓</div>
+              <div class="project-flow__node" style="border-color: var(--cyan-500);">React/Vite Dashboard</div>
+            </div>
+          </div>
+          <div class="project-card__body">
+            <div class="project-card__header">
+              <div>
+                <div class="project-card__category">Full-Stack + Predictive Analytics</div>
+                <h3 class="project-card__name">VoltTrack</h3>
+              </div>
+              <span class="badge badge--completed">Completed</span>
+            </div>
+            <p class="project-card__desc">
+              Built a capstone electric-vehicle fleet-management system with a Spring Boot 3 REST backend on MySQL and a React/Vite frontend. Implemented a Java-based predictive analytics layer using Weka, keeping the entire ML and backend stack Java-based.
+            </p>
+            <div class="project-card__chips">
+              <span class="chip">Java</span>
+              <span class="chip">Spring Boot 3</span>
+              <span class="chip chip--ai">Weka</span>
+              <span class="chip">React</span>
+              <span class="chip">MySQL</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 02: FairSight AI -->
+        <div class="project-card reveal reveal-delay-2">
+          <div class="project-card__visual">
+            <div class="project-flow">
+              <div class="project-flow__node">Dataset → ML Model</div>
+              <div class="project-flow__arrow">↓</div>
+              <div class="project-flow__node" style="border-color: var(--accent-500);">Bias Detection & Evaluation</div>
+              <div class="project-flow__arrow">↓</div>
+              <div class="project-flow__node" style="border-color: var(--primary-500);">SHAP / LIME Explainability</div>
+              <div class="project-flow__arrow">↓</div>
+              <div class="project-flow__node" style="border-color: var(--cyan-500);">Fairness Report (Streamlit)</div>
+              <div class="project-flow__arrow">↓</div>
+              <div class="project-flow__node">n8n Automated Alert</div>
+            </div>
+          </div>
+          <div class="project-card__body">
+            <div class="project-card__header">
+              <div>
+                <div class="project-card__category">AI + Responsible ML</div>
+                <h3 class="project-card__name">FairSight AI</h3>
+              </div>
+              <span class="badge badge--prototype">Prototype</span>
+            </div>
+            <p class="project-card__desc">
+              Solution Challenge 2026: Build with AI Prototype. An AI fairness platform that detects bias in datasets and ML models, generating explainable fairness reports using SHAP and LIME with automated Gmail notifications via n8n.
+            </p>
+            <div class="project-card__chips">
+              <span class="chip">Python</span>
+              <span class="chip chip--ai">SHAP</span>
+              <span class="chip chip--ai">LIME</span>
+              <span class="chip chip--ai">Fairlearn</span>
+              <span class="chip">Streamlit</span>
+              <span class="chip">n8n</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 03: ML Regression Pipeline -->
+        <div class="project-card reveal reveal-delay-3">
+          <div class="project-card__visual">
+            <div class="project-flow" style="flex-direction: row; flex-wrap: wrap; justify-content: center; max-width: 280px;">
+              <div class="project-flow__node">Raw Data</div><span class="project-flow__arrow">→</span>
+              <div class="project-flow__node">Preprocessing</div><span class="project-flow__arrow">→</span>
+              <div class="project-flow__node" style="border-color: var(--primary-500);">Feature Eng.</div><span class="project-flow__arrow">→</span>
+              <div class="project-flow__node" style="border-color: var(--accent-500);">XGBoost Train</div><span class="project-flow__arrow">→</span>
+              <div class="project-flow__node">Hyper-tuning</div><span class="project-flow__arrow">→</span>
+              <div class="project-flow__node" style="border-color: var(--cyan-500);">FastAPI Serving</div>
+            </div>
+          </div>
+          <div class="project-card__body">
+            <div class="project-card__header">
+              <div>
+                <div class="project-card__category">ML Engineering</div>
+                <h3 class="project-card__name">Production ML Pipeline</h3>
+              </div>
+              <span class="badge badge--completed">Completed</span>
+            </div>
+            <p class="project-card__desc">
+              Built a dataset-agnostic regression pipeline covering preprocessing, feature engineering, model comparison, hyperparameter tuning, and API-based model serving for deployment.
+            </p>
+            <div class="project-card__chips">
+              <span class="chip chip--ai">XGBoost</span>
+              <span class="chip">scikit-learn</span>
+              <span class="chip">GridSearchCV</span>
+              <span class="chip">FastAPI</span>
+              <span class="chip">Python</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       05. FULL-STACK ARCHITECTURE
+       ========================================================= -->
+  <section class="section">
+    <div class="container container--lg">
+      <div class="section__header reveal">
+        <h2 class="section__title">From Interface to Infrastructure</h2>
+        <div class="divider"></div>
+      </div>
+
+      <div class="architecture__diagram reveal">
+        <!-- WEB LAYER -->
+        <div class="arch-layer">
+          <div class="arch-node">React</div>
+          <div class="arch-node">React Native</div>
+          <div class="arch-node">Vite</div>
+          <div class="arch-node">Tailwind CSS</div>
+        </div>
+
+        <div class="arch-connector"><div class="dot"></div></div>
+        <div class="arch-label">REST APIs</div>
+        <div class="arch-connector"><div class="dot" style="animation-delay: 0.5s;"></div></div>
+
+        <!-- BACKEND LAYER -->
+        <div class="arch-layer">
+          <div class="arch-node arch-node--primary">Node.js / Express</div>
+          <div class="arch-node arch-node--primary">Spring Boot (Java)</div>
+          <div class="arch-node arch-node--primary">FastAPI (Python)</div>
+        </div>
+
+        <div class="arch-connector"><div class="dot" style="animation-delay: 0.2s;"></div></div>
+        <div class="arch-label">Data Layer</div>
+        <div class="arch-connector"><div class="dot" style="animation-delay: 0.7s;"></div></div>
+
+        <!-- DB / ML SPLIT -->
+        <div class="arch-split">
+          <div>
+            <div class="arch-layer">
+              <div class="arch-node">MySQL</div>
+              <div class="arch-node">PostgreSQL</div>
+              <div class="arch-node">MongoDB</div>
+            </div>
+          </div>
+          <div>
+            <div class="arch-layer">
+              <div class="arch-node arch-node--accent">XGBoost / sklearn</div>
+              <div class="arch-node arch-node--accent">SHAP / LIME</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="arch-connector"><div class="dot" style="animation-delay: 0.4s;"></div></div>
+        <div class="arch-label">Deployment</div>
+        <div class="arch-connector"><div class="dot" style="animation-delay: 0.9s;"></div></div>
+
+        <!-- DEPLOY LAYER -->
+        <div class="arch-layer">
+          <div class="arch-node">Render</div>
+          <div class="arch-node">Vercel</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       06. TECHNICAL SKILLS
+       ========================================================= -->
+  <section id="skills" class="section">
+    <div class="container container--lg">
+      <div class="section__header reveal">
+        <h2 class="section__title">Technical Skills</h2>
+        <div class="divider"></div>
+      </div>
+
+      <div class="skills__grid">
+        <div class="skill-category reveal reveal-delay-1">
+          <div class="skill-category__title"><span class="icon">💻</span> Core CS</div>
+          <div class="skill-category__list">
+            <span class="chip">Data Structures</span>
+            <span class="chip">Algorithms</span>
+            <span class="chip">OOP</span>
+            <span class="chip">DBMS</span>
+            <span class="chip">Operating Systems</span>
+            <span class="chip">Networks</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal reveal-delay-2">
+          <div class="skill-category__title"><span class="icon">⌨️</span> Languages</div>
+          <div class="skill-category__list">
+            <span class="chip">Python</span>
+            <span class="chip">Java</span>
+            <span class="chip">C++</span>
+            <span class="chip">JavaScript</span>
+            <span class="chip">SQL</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal reveal-delay-3">
+          <div class="skill-category__title"><span class="icon">⚙️</span> Backend</div>
+          <div class="skill-category__list">
+            <span class="chip">Node.js</span>
+            <span class="chip">Express.js</span>
+            <span class="chip">Spring Boot</span>
+            <span class="chip">FastAPI</span>
+            <span class="chip">REST APIs</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal reveal-delay-4">
+          <div class="skill-category__title"><span class="icon">🎨</span> Frontend & Mobile</div>
+          <div class="skill-category__list">
+            <span class="chip">React.js</span>
+            <span class="chip">React Native</span>
+            <span class="chip">Vite</span>
+            <span class="chip">Tailwind CSS</span>
+            <span class="chip">HTML/CSS</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal reveal-delay-5">
+          <div class="skill-category__title"><span class="icon">🗄️</span> Databases</div>
+          <div class="skill-category__list">
+            <span class="chip">MySQL</span>
+            <span class="chip">PostgreSQL</span>
+            <span class="chip">MongoDB</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal reveal-delay-1">
+          <div class="skill-category__title"><span class="icon">🧠</span> AI / ML</div>
+          <div class="skill-category__list">
+            <span class="chip chip--ai">Machine Learning</span>
+            <span class="chip chip--ai">XGBoost</span>
+            <span class="chip chip--ai">scikit-learn</span>
+            <span class="chip chip--ai">SHAP/LIME</span>
+            <span class="chip chip--ai">Fairlearn</span>
+            <span class="chip chip--ai">NLP</span>
+            <span class="chip chip--ai">Prompt Engineering</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal reveal-delay-2">
+          <div class="skill-category__title"><span class="icon">🛠️</span> Tools & Platforms</div>
+          <div class="skill-category__list">
+            <span class="chip">Git/GitHub</span>
+            <span class="chip">Firebase</span>
+            <span class="chip">Streamlit</span>
+            <span class="chip">Render</span>
+            <span class="chip">Vercel</span>
+            <span class="chip">n8n</span>
+            <span class="chip">Weka</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="glow-orb glow-orb--purple" style="top: 50%; left: -10%; width: 500px; height: 500px;"></div>
+  </section>
+
+  <!-- =========================================================
+       07. MACHINE LEARNING & AI EXPERTISE
+       ========================================================= -->
+  <section id="ml-ai" class="section">
+    <div class="container container--lg">
+      <div class="section__header reveal">
+        <h2 class="section__title">Machine Learning & AI Expertise</h2>
+        <p class="section__subtitle">From data preprocessing and exploratory analysis to model development, evaluation, explainability and deployment.</p>
+        <div class="divider"></div>
+      </div>
+
+      <div class="ml__tabs reveal">
+        <button class="ml__tab active" data-panel="ml-workflow">ML Workflow & Data</button>
+        <button class="ml__tab" data-panel="ml-supervised">Supervised & Unsupervised</button>
+        <button class="ml__tab" data-panel="ml-optimization">Optimization & Evaluation</button>
+        <button class="ml__tab" data-panel="ml-xai">Explainable & Responsible AI</button>
+      </div>
+
+      <!-- Tab: Workflow & Data -->
+      <div id="ml-workflow" class="ml__panel active">
+        <div class="ml__pipeline">
+          <div class="ml__pipeline-stage"><div class="ml__pipeline-node">Raw Data</div><div class="ml__pipeline-arrow">→</div></div>
+          <div class="ml__pipeline-stage"><div class="ml__pipeline-node">EDA</div><div class="ml__pipeline-arrow">→</div></div>
+          <div class="ml__pipeline-stage"><div class="ml__pipeline-node">Data Cleaning</div><div class="ml__pipeline-arrow">→</div></div>
+          <div class="ml__pipeline-stage"><div class="ml__pipeline-node">Feature Eng.</div><div class="ml__pipeline-arrow">→</div></div>
+          <div class="ml__pipeline-stage"><div class="ml__pipeline-node">Encoding & Scaling</div><div class="ml__pipeline-arrow">→</div></div>
+          <div class="ml__pipeline-stage"><div class="ml__pipeline-node">Train/Test Split</div><div class="ml__pipeline-arrow">→</div></div>
+          <div class="ml__pipeline-stage"><div class="ml__pipeline-node" style="border-color: var(--primary-500);">Model Training</div><div class="ml__pipeline-arrow">→</div></div>
+          <div class="ml__pipeline-stage"><div class="ml__pipeline-node">Cross Validation</div><div class="ml__pipeline-arrow">→</div></div>
+          <div class="ml__pipeline-stage"><div class="ml__pipeline-node">Evaluation</div><div class="ml__pipeline-arrow">→</div></div>
+          <div class="ml__pipeline-stage"><div class="ml__pipeline-node" style="border-color: var(--accent-500);">Explainability</div><div class="ml__pipeline-arrow">→</div></div>
+          <div class="ml__pipeline-stage"><div class="ml__pipeline-node" style="border-color: var(--cyan-500);">API Deployment</div></div>
+        </div>
+
+        <div class="ml__category-grid" style="margin-top: 32px;">
+          <div class="ml__method-card">
+            <h4>Feature Engineering</h4>
+            <div class="ml__method-list">
+              <div class="ml__method-item" data-tip="Imputation strategies for missing data points.">Missing value handling</div>
+              <div class="ml__method-item" data-tip="Converting categorical variables (e.g. One-Hot Encoding).">Encoding Techniques</div>
+              <div class="ml__method-item" data-tip="Standardization (Z-score) and Normalization (Min-Max).">Feature Scaling</div>
+              <div class="ml__method-item" data-tip="Creating new derived features from existing data.">Feature Creation</div>
+              <div class="ml__method-item" data-tip="Identifying and treating outliers (e.g. IQR method).">Outlier Handling</div>
+            </div>
+          </div>
+          <div class="ml__method-card">
+            <h4>Dimensionality Reduction</h4>
+            <div class="ml__method-list">
+              <div class="ml__method-item" data-tip="Principal Component Analysis for variance preservation.">PCA</div>
+              <div class="ml__method-item" data-tip="Linear Discriminant Analysis for class separation.">LDA</div>
+              <div class="ml__method-item" data-tip="Independent Component Analysis.">ICA</div>
+              <div class="ml__method-item" data-tip="Selecting the most important features.">Feature Selection</div>
+            </div>
+          </div>
+          <div class="ml__method-card">
+            <h4>ML Engineering</h4>
+            <div class="ml__method-list">
+              <div class="ml__method-item">Pandas & NumPy</div>
+              <div class="ml__method-item">scikit-learn Pipelines</div>
+              <div class="ml__method-item">Model Serialization (Pickle/Joblib)</div>
+              <div class="ml__method-item">FastAPI Model Serving</div>
+              <div class="ml__method-item">Streamlit Dashboards</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tab: Supervised & Unsupervised -->
+      <div id="ml-supervised" class="ml__panel">
+        <div class="ml__category-grid">
+          <div class="ml__method-card">
+            <h4>Regression</h4>
+            <div class="ml__method-list">
+              <div class="ml__method-item" data-tip="Basic linear relationship modeling.">Linear Regression</div>
+              <div class="ml__method-item" data-tip="L2 regularization to prevent overfitting.">Ridge Regression</div>
+              <div class="ml__method-item" data-tip="L1 regularization for feature selection.">Lasso / Elastic Net</div>
+              <div class="ml__method-item" data-tip="Tree-based regression splits.">Decision Tree Regression</div>
+              <div class="ml__method-item" data-tip="Ensemble of trees for robust predictions.">Random Forest Regression</div>
+              <div class="ml__method-item" data-tip="Sequential weak learners.">Gradient Boosting</div>
+              <div class="ml__method-item" data-tip="Highly optimized extreme gradient boosting.">XGBoost Regression</div>
+              <div class="ml__method-item" data-tip="Support Vector Regression.">SVR</div>
+            </div>
+          </div>
+          
+          <div class="ml__method-card">
+            <h4>Classification</h4>
+            <div class="ml__method-list">
+              <div class="ml__method-item" data-tip="Sigmoid-based binary classification.">Logistic Regression</div>
+              <div class="ml__method-item" data-tip="Distance-based classification.">K-Nearest Neighbors</div>
+              <div class="ml__method-item" data-tip="Tree-based decision rules.">Decision Trees</div>
+              <div class="ml__method-item" data-tip="Ensemble voting classifier.">Random Forest</div>
+              <div class="ml__method-item" data-tip="Margin-maximizing hyperplanes.">Support Vector Machines</div>
+              <div class="ml__method-item" data-tip="Probabilistic classification.">Naive Bayes</div>
+              <div class="ml__method-item" data-tip="Sequential classification trees.">Gradient Boosting</div>
+              <div class="ml__method-item" data-tip="State-of-the-art tree boosting.">XGBoost</div>
+            </div>
+          </div>
+
+          <div class="ml__method-card">
+            <h4>Unsupervised & NLP</h4>
+            <div class="ml__method-list">
+              <div class="ml__method-item" data-tip="Centroid-based clustering.">K-Means Clustering</div>
+              <div class="ml__method-item" data-tip="Agglomerative clustering.">Hierarchical Clustering</div>
+              <div class="ml__method-item" data-tip="Discovering underlying data structures.">Pattern Discovery</div>
+              <div class="ml__method-item" style="margin-top: 16px; font-weight: 600; color: var(--accent-400);">NLP & Generative AI</div>
+              <div class="ml__method-item">Natural Language Processing</div>
+              <div class="ml__method-item">Prompt Engineering</div>
+              <div class="ml__method-item">LLM-based Applications</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tab: Optimization & Evaluation -->
+      <div id="ml-optimization" class="ml__panel">
+        <div class="about__grid">
+          <div>
+            <h3 style="font-size: var(--fs-lg); margin-bottom: var(--sp-4);">Model Selection & Optimization</h3>
+            <div class="ml__pipeline" style="padding: 0; justify-content: flex-start; margin-bottom: var(--sp-6);">
+              <div class="ml__pipeline-stage"><div class="ml__pipeline-node">Model Comparison</div><div class="ml__pipeline-arrow">→</div></div>
+              <div class="ml__pipeline-stage"><div class="ml__pipeline-node" style="border-color: var(--primary-500);">Best Model</div><div class="ml__pipeline-arrow">→</div></div>
+              <div class="ml__pipeline-stage"><div class="ml__pipeline-node" style="border-color: var(--accent-500);">Hyperparameter Tuning</div><div class="ml__pipeline-arrow">→</div></div>
+              <div class="ml__pipeline-stage"><div class="ml__pipeline-node" style="border-color: var(--success-500);">Final Model</div></div>
+            </div>
+            
+            <div class="ml__method-list" style="display: grid; grid-template-columns: 1fr 1fr; gap: var(--sp-2);">
+              <div class="ml__method-item">Train/Test Split</div>
+              <div class="ml__method-item">K-Fold Cross Validation</div>
+              <div class="ml__method-item">GridSearchCV</div>
+              <div class="ml__method-item">Pipeline Construction</div>
+              <div class="ml__method-item">Bias/Variance Analysis</div>
+              <div class="ml__method-item">Overfitting/Underfitting Check</div>
+            </div>
+          </div>
+          
+          <div>
+            <h3 style="font-size: var(--fs-lg); margin-bottom: var(--sp-4);">Evaluation Metrics</h3>
+            <div class="metrics-grid">
+              <div class="metric-card">
+                <div class="metric-card__name">Accuracy</div>
+                <div class="metric-card__desc">Overall correctness ratio.</div>
+              </div>
+              <div class="metric-card">
+                <div class="metric-card__name">Precision</div>
+                <div class="metric-card__desc">Exactness: True Positives / Predicted Positives.</div>
+              </div>
+              <div class="metric-card">
+                <div class="metric-card__name">Recall</div>
+                <div class="metric-card__desc">Completeness: True Positives / Actual Positives.</div>
+              </div>
+              <div class="metric-card">
+                <div class="metric-card__name">F1 Score</div>
+                <div class="metric-card__desc">Harmonic mean of Precision and Recall.</div>
+              </div>
+              <div class="metric-card">
+                <div class="metric-card__name">RMSE</div>
+                <div class="metric-card__desc">Root Mean Squared Error (Regression).</div>
+              </div>
+              <div class="metric-card">
+                <div class="metric-card__name">R² Score</div>
+                <div class="metric-card__desc">Coefficient of determination.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tab: Explainable & Responsible AI -->
+      <div id="ml-xai" class="ml__panel">
+        <div class="about__grid">
+          <div class="card">
+            <h3 style="color: var(--primary-400); margin-bottom: var(--sp-4);">Explainable AI (XAI)</h3>
+            <div class="ml__pipeline" style="padding: 0; justify-content: flex-start; margin-bottom: var(--sp-6);">
+              <div class="ml__pipeline-stage"><div class="ml__pipeline-node">Model Prediction</div><div class="ml__pipeline-arrow">→</div></div>
+              <div class="ml__pipeline-stage"><div class="ml__pipeline-node">Why?</div><div class="ml__pipeline-arrow">→</div></div>
+              <div class="ml__pipeline-stage"><div class="ml__pipeline-node" style="border-color: var(--primary-500);">Feature Contributions</div><div class="ml__pipeline-arrow">→</div></div>
+              <div class="ml__pipeline-stage"><div class="ml__pipeline-node" style="border-color: var(--success-500);">Explanation</div></div>
+            </div>
+            <p class="text-secondary" style="font-size: var(--fs-sm); margin-bottom: var(--sp-4);">
+              Opening the "black box" of complex machine learning models to understand how and why predictions are made.
+            </p>
+            <div class="ml__method-list">
+              <div class="ml__method-item" style="border-left: 2px solid var(--primary-500);"><strong>SHAP</strong>: Game-theoretic approach to explain output of any ML model.</div>
+              <div class="ml__method-item" style="border-left: 2px solid var(--accent-500);"><strong>LIME</strong>: Local interpretable model-agnostic explanations.</div>
+            </div>
+          </div>
+          
+          <div class="card">
+            <h3 style="color: var(--accent-400); margin-bottom: var(--sp-4);">Responsible & Fair AI</h3>
+            <div class="ml__pipeline" style="padding: 0; justify-content: flex-start; margin-bottom: var(--sp-6);">
+              <div class="ml__pipeline-stage"><div class="ml__pipeline-node">Dataset/Model</div><div class="ml__pipeline-arrow">→</div></div>
+              <div class="ml__pipeline-stage"><div class="ml__pipeline-node" style="border-color: var(--warning-500);">Bias Detection</div><div class="ml__pipeline-arrow">→</div></div>
+              <div class="ml__pipeline-stage"><div class="ml__pipeline-node" style="border-color: var(--accent-500);">Fairness Evaluation</div><div class="ml__pipeline-arrow">→</div></div>
+              <div class="ml__pipeline-stage"><div class="ml__pipeline-node" style="border-color: var(--success-500);">Bias Mitigation</div></div>
+            </div>
+            <p class="text-secondary" style="font-size: var(--fs-sm); margin-bottom: var(--sp-4);">
+              Ensuring AI systems treat all groups fairly, are transparent, and do not amplify societal biases. (Core focus of my FairSight AI project).
+            </p>
+            <div class="ml__method-list">
+              <div class="ml__method-item"><strong>Fairlearn</strong>: Assessing and mitigating unfairness in models.</div>
+              <div class="ml__method-item">Model Transparency & Auditing</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================
+       08. ML VISUAL LAB
+       ========================================================= -->
+  <section class="section">
+    <div class="container container--lg">
+      <div class="section__header reveal">
+        <h2 class="section__title">ML Visual Lab</h2>
+        <p class="section__subtitle">Interactive conceptual demonstrations of core algorithms and techniques.</p>
+        <div class="divider"></div>
+      </div>
+
+      <div class="lab__grid reveal">
+        <div class="lab-card">
+          <div class="lab-card__canvas-wrap"><canvas data-lab="regression"></canvas></div>
+          <div class="lab-card__info">
+            <div class="lab-card__title">Linear Regression</div>
+            <div class="lab-card__desc">Fitting a line to minimize residuals.</div>
+          </div>
+        </div>
+        <div class="lab-card">
+          <div class="lab-card__canvas-wrap"><canvas data-lab="classification"></canvas></div>
+          <div class="lab-card__info">
+            <div class="lab-card__title">Classification Boundary</div>
+            <div class="lab-card__desc">Separating distinct data classes.</div>
+          </div>
+        </div>
+        <div class="lab-card">
+          <div class="lab-card__canvas-wrap"><canvas data-lab="kmeans"></canvas></div>
+          <div class="lab-card__info">
+            <div class="lab-card__title">K-Means Clustering</div>
+            <div class="lab-card__desc">Unsupervised centroid grouping.</div>
+          </div>
+        </div>
+        <div class="lab-card">
+          <div class="lab-card__canvas-wrap"><canvas data-lab="pca"></canvas></div>
+          <div class="lab-card__info">
+            <div class="lab-card__title">PCA Reduction</div>
+            <div class="lab-card__desc">High to low dimensional projection.</div>
+          </div>
+        </div>
+        <div class="lab-card">
+          <div class="lab-card__canvas-wrap"><canvas data-lab="decision-tree"></canvas></div>
+          <div class="lab-card__info">
+            <div class="lab-card__title">Decision Tree</div>
+            <div class="lab-card__desc">Rule-based splitting structure.</div>
+          </div>
+        </div>
+        <div class="lab-card">
+          <div class="lab-card__canvas-wrap"><canvas data-lab="random-forest"></canvas></div>
+          <div class="lab-card__info">
+            <div class="lab-card__title">Random Forest</div>
+            <div class="lab-card__desc">Ensemble of independent trees.</div>
+          </div>
+        </div>
+        <div class="lab-card">
+          <div class="lab-card__canvas-wrap"><canvas data-lab="gradient-boosting"></canvas></div>
+          <div class="lab-card__info">
+            <div class="lab-card__title">Gradient Boosting</div>
+            <div class="lab-card__desc">Sequential residual correction.</div>
+          </div>
+        </div>
+        <div class="lab-card">
+          <div class="lab-card__canvas-wrap"><canvas data-lab="confusion-matrix"></canvas></div>
+          <div class="lab-card__info">
+            <div class="lab-card__title">Confusion Matrix</div>
+            <div class="lab-card__desc">True/False Positive/Negative evaluation.</div>
+          </div>
+        </div>
+        <div class="lab-card">
+          <div class="lab-card__canvas-wrap"><canvas data-lab="feature-importance"></canvas></div>
+          <div class="lab-card__info">
+            <div class="lab-card__title">Feature Importance</div>
+            <div class="lab-card__desc">Ranking predictive power of inputs.</div>
+          </div>
+        </div>
+        <div class="lab-card">
+          <div class="lab-card__canvas-wrap"><canvas data-lab="shap"></canvas></div>
+          <div class="lab-card__info">
+            <div class="lab-card__title">SHAP Explanation</div>
+            <div class="lab-card__desc">Feature contributions to a prediction.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       10. DEVELOPER SKILLS NETWORK
+       ========================================================= -->
+  <section class="section">
+    <div class="container container--lg">
+      <div class="section__header reveal">
+        <h2 class="section__title">Developer Skills Network</h2>
+        <p class="section__subtitle">Hover over nodes to explore connections.</p>
+        <div class="divider"></div>
+      </div>
+
+      <div id="network-canvas" class="network__canvas-wrap reveal">
+        <!-- Canvas injected by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       11. GITHUB ACTIVITY
+       ========================================================= -->
+  <section id="github" class="section">
+    <div class="container container--lg">
+      <div class="section__header reveal">
+        <h2 class="section__title">GitHub Activity</h2>
+        <a href="https://github.com/Shivagamer-dev" target="_blank" class="gradient-text" style="font-weight: 600;">@Shivagamer-dev</a>
+        <div class="divider" style="margin-top: var(--sp-4);"></div>
+      </div>
+
+      <div id="github-stats" class="github__stats reveal">
+        <!-- Stats injected by JS, fallback to SVG -->
+        <p class="text-center text-secondary" style="grid-column: 1/-1;">Loading GitHub statistics...</p>
+      </div>
+
+      <h3 class="text-center text-secondary mb-6" style="margin-bottom: var(--sp-6);">Recent Repositories</h3>
+      <div id="github-repos" class="repo-cards-grid reveal">
+        <!-- Repos injected by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       12. EDUCATION & 13. CERTIFICATIONS
+       ========================================================= -->
+  <section class="section" style="background: var(--bg-secondary);">
+    <div class="container">
+      
+      <!-- EDUCATION -->
+      <div class="section__header reveal">
+        <h2 class="section__title">Education</h2>
+        <div class="divider"></div>
+      </div>
+
+      <div class="education__grid reveal mb-16" style="margin-bottom: var(--sp-16);">
+        <div class="edu-card" style="grid-column: 1 / -1; border-color: var(--primary-500); background: rgba(59,130,246,0.03);">
+          <div class="edu-card__degree">B.Tech in Computer Science Engineering (AI & ML)</div>
+          <div class="edu-card__institution">University of Petroleum and Energy Studies (UPES)</div>
+          <div class="edu-card__meta">
+            <span>2024 – 2028</span>
+            <span>Batch: B10</span>
+          </div>
+          <div class="edu-card__highlight">CGPA: 7.2 / 10</div>
+        </div>
+        <div class="edu-card">
+          <div class="edu-card__degree">Class XII — CBSE</div>
+          <div class="edu-card__highlight">64%</div>
+        </div>
+        <div class="edu-card">
+          <div class="edu-card__degree">Class X — CBSE</div>
+          <div class="edu-card__highlight">90.8%</div>
+        </div>
+      </div>
+
+      <!-- CERTIFICATIONS -->
+      <div class="section__header reveal" style="margin-top: var(--sp-24);">
+        <h2 class="section__title">Certifications & Learning</h2>
+        <div class="divider"></div>
+      </div>
+
+      <div class="certs__grid reveal">
+        <div class="cert-card">
+          <div class="cert-card__name">Full Stack Development – MERN Stack</div>
+          <div class="cert-card__issuer">CADD Kampus</div>
+          <div class="cert-card__meta">
+            <span>240 hrs</span> • <span>2026</span>
+          </div>
+        </div>
+        <div class="cert-card">
+          <div class="cert-card__name">Data Science & Machine Learning</div>
+          <div class="cert-card__issuer">CADD Kampus</div>
+          <div class="cert-card__meta">
+            <span>120 hrs</span> • <span>2026</span>
+          </div>
+        </div>
+        <div class="cert-card">
+          <div class="cert-card__name">Diploma in IT Programming – C, C++ & Python</div>
+          <div class="cert-card__issuer">CADD Kampus</div>
+          <div class="cert-card__meta">
+            <span>160 hrs</span> • <span>2024</span>
+          </div>
+        </div>
+        <div class="cert-card">
+          <div class="cert-card__name">Machine Learning Expert — Skill-Verified</div>
+          <div class="cert-card__issuer">Beep</div>
+          <div class="cert-card__meta">
+            <span>2026</span>
+          </div>
+        </div>
+        <div class="cert-card">
+          <div class="cert-card__name">Python Using AI Workshop</div>
+          <div class="cert-card__issuer">AI For Techies</div>
+          <div class="cert-card__meta">
+            <span>2025</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================
+       14. HACKATHONS & 15. VOLUNTEERING
+       ========================================================= -->
+  <section class="section">
+    <div class="container">
+      
+      <div class="about__grid">
+        <!-- HACKATHONS -->
+        <div>
+          <h2 class="section__title" style="font-size: var(--fs-2xl); margin-bottom: var(--sp-8);">Hackathons & Activities</h2>
+          
+          <div class="timeline">
+            <div class="timeline__item reveal">
+              <div class="timeline__dot"></div>
+              <div class="timeline__content">
+                <div class="timeline__period">Jul 2026</div>
+                <h3 class="timeline__role" style="font-size: var(--fs-md);">Prototype Participant</h3>
+                <div class="timeline__company">Solution Challenge 2026: Build with AI (Google / H2S)</div>
+              </div>
+            </div>
+            
+            <div class="timeline__item reveal">
+              <div class="timeline__dot"></div>
+              <div class="timeline__content">
+                <div class="timeline__period">Mar 2026</div>
+                <h3 class="timeline__role" style="font-size: var(--fs-md);">Participant (Team Kishta Coders)</h3>
+                <div class="timeline__company">Hackathon 9.0 – Build4Bharat (UPES-CSI)</div>
+              </div>
+            </div>
+
+            <div class="timeline__item reveal">
+              <div class="timeline__dot"></div>
+              <div class="timeline__content">
+                <div class="timeline__period">Sep 2025</div>
+                <h3 class="timeline__role" style="font-size: var(--fs-md);">Internal Round Participant</h3>
+                <div class="timeline__company">Smart India Hackathon 2025 (UPES)</div>
+              </div>
+            </div>
+
+            <div class="timeline__item reveal">
+              <div class="timeline__dot"></div>
+              <div class="timeline__content">
+                <div class="timeline__period">Jul 2025</div>
+                <h3 class="timeline__role" style="font-size: var(--fs-md);">Organizing Committee Member</h3>
+                <div class="timeline__company">GitXplore Workshop (IEEE CIS SBC, UPES)</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- VOLUNTEERING -->
+        <div>
+          <h2 class="section__title" style="font-size: var(--fs-2xl); margin-bottom: var(--sp-8);">Community</h2>
+          
+          <div class="card reveal" style="border-color: var(--accent-500); background: rgba(139,92,246,0.03);">
+            <h3 class="timeline__role" style="margin-bottom: var(--sp-2);">Teaching Volunteer</h3>
+            <div class="timeline__company" style="color: var(--accent-400);">Agastya International Foundation</div>
+            <p class="text-secondary mt-4">Completed 40 hours of teaching volunteer work, helping students learn and engage with technology.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================
+       16. CONTACT
+       ========================================================= -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="contact reveal">
+        <h2 class="contact__title">Let's Build Something Together</h2>
+        <p class="contact__text">
+          Interested in Software Engineering, Machine Learning, AI, full-stack systems or building something interesting together? Let's connect.
+        </p>
+        <div class="contact__links">
+          <a href="https://github.com/Shivagamer-dev" target="_blank" rel="noopener noreferrer" class="btn btn--primary">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12Z"/></svg>
+            Follow on GitHub
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       17. FOOTER
+       ========================================================= -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer__tagline">Built with curiosity, code and a lot of problem solving. ☕</p>
+      <p class="footer__copy">© 2026 Shiva Tyagi</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script type="module" src="./js/app.js"></script>
+</body>
+</html>
